@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_pdx203.mk
+    $(LOCAL_DIR)/mokee_pdx203.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_pdx203-user \
-    evolution_pdx203-userdebug \
-    evolution_pdx203-eng
+    mokee_pdx203-user \
+    mokee_pdx203-userdebug \
+    mokee_pdx203-eng
