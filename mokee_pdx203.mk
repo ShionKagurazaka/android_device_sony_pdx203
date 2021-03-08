@@ -23,16 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-WITH_GAPPS := true
-EVO_BUILD_TYPE := UNOFFICIAL
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := pdx203
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := evolution_pdx203
+PRODUCT_NAME := mokee_pdx203
 PRODUCT_MODEL := Xperia 1 II
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
